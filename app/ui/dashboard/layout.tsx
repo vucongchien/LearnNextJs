@@ -1,5 +1,7 @@
 import NavLinks from "./nav-links";
 
+export const experimental_ppr = true
+
 export default function DashboardLayout({
   children,
 }: {
