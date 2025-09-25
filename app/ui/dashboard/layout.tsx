@@ -7,9 +7,12 @@ export default function DashboardLayout({
 }) {
   return (
 
-    <div className="flex flex-col md:flex-row h-screen">
+    <div className="flex h-screen">
         <NavLinks />
-        {children}
+        <div className="flex-col md:flex-row">
+          {children}
+        </div>
+        
     </div>
   );
 }
