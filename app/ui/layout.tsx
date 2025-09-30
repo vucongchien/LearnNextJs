@@ -1,4 +1,4 @@
-import NavLinks from "./nav-links";
+import NavLinks from "./dashboard/nav-links";
 
 export const experimental_ppr = true
 
