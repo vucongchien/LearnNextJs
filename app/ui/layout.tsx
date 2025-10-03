@@ -1,4 +1,5 @@
 import NavLinks from "./dashboard/nav-links";
+import SideNav from "./dashboard/sidenav";
 
 export const experimental_ppr = true
 
@@ -10,7 +11,7 @@ export default function DashboardLayout({
   return (
 
     <div className="flex h-screen">
-        <NavLinks />
+        <SideNav />
         <div className="flex-col md:flex-row">
           {children}
         </div>
